@@ -1,0 +1,1183 @@
+/* 
+===================== LAYOUT ===================== 
+*/
+/* ==================================== General ==================================== */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #fff;
+    font-family: Arial, 'Microsoft Jhenghei', 'Noto Sans SC', 'Noto Sans TC', sans-serif;
+    vertical-align: baseline;
+}
+
+body {
+    height: auto;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: none;
+    background-color: #313131;
+    width: 100%;
+}
+
+body * {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+a:focus {
+    text-decoration: none;
+    color: #0ea1ce;
+}
+
+a img {
+    border: none;
+}
+
+.anchor {
+    margin-top: -103px !important;
+    padding-top: 103px !important;
+    position: relative;
+    z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.hide {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.grey {
+    color: #999999;
+}
+
+.mobile {
+    display: none;
+}
+
+.only-desktop {
+    display: block !important;
+}
+
+.only-mobile {
+    display: none !important;
+}
+
+/* ==================================== Structure ==================================== */
+#wrap {
+    padding: 0;
+    position: relative;
+    padding-top: 50px;
+}
+
+#mobile-plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: url('http://asia-gaming.net/events/mastertour/img/bg-black-50.png') 0 0 repeat;
+    z-index: 999;
+    display: none;
+}
+
+.psep {
+    width: 1px;
+    border-left: 1px solid #064a5f;
+}
+
+/* header */
+#wrapper-header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    /*background-color: #ff6600;*/
+}
+
+#header {
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    /*max-width: 1130px;*/
+    /*height: 100px;*/
+}
+
+/* logo */
+#logo {
+    width: 162px;
+    height: 53px;
+    position: absolute;
+    top: 24px;
+    left: 60px;
+    background: url('../images/ag_logo.png') center center no-repeat;
+}
+
+#logo a {
+    display: block;
+}
+
+#logo img {
+    width: 100%;
+}
+
+/* language */
+#language-desktop {
+    display: none;
+    float: none;
+    position: absolute;
+    width: 85px;
+    margin: 0;
+    padding-top: 5px;
+    background-color: #08617c;
+    z-index: 1001;
+}
+
+#language-desktop > li {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+#language-desktop > li:first-child {
+    margin: 0;
+}
+
+#language-desktop > li > a {
+    display: block;
+    color: #76e0ff;
+    font-size: 12px;
+    border-top: 1px solid #064a5f;
+    padding: 14px 8px; /*padding: 12px 10px;*/
+    margin: 0 auto;
+    text-align: center
+}
+
+#language-desktop > li > a:hover {
+    color: #fff;
+}
+
+/* main menu */
+#menu {
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+    z-index: 1000;
+}
+
+#menu > ul {
+    display: block;
+}
+
+#menu > ul > li {
+    display: block;
+    color: #fff;
+    float: left;
+    margin: 0 0 0 64px; /*margin:0 0 0 84px;*/
+}
+
+#menu > ul > li:first-child {
+    margin: 0;
+}
+
+#menu > ul > li > a {
+    display: block;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0px 0 14px;
+}
+
+#menu > ul > li > a:hover {
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    padding: 0px 0 18px;
+    display: inline;
+    list-style-type: none;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+#menu > ul > li > a:active {
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    padding: 0px 0 18px;
+    display: inline;
+    list-style-type: none;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+#menu > ul > li > ul {
+    position: absolute;
+    top: 39px;
+    display: none; /*margin-left: -20px;text-align:center;*/
+}
+
+#menu > ul > li > ul > li {
+    float: none;
+}
+
+#menu > ul > li > ul > li > a {
+    display: block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #76e0ff;
+    background-color: #08617c;
+    border-top: 1px solid #064a5f; /*border-left: solid 1px #fff;*/
+}
+
+#menu > ul > li > ul > li:first-child > a {
+    border-left: none;
+}
+
+#menu > ul > li > ul > li > a:hover {
+    color: #fff; /*border-bottom: solid 2px #fff;*/
+}
+
+#menu-bg {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    background-color: transparent;
+    top: 100%;
+    z-index: 999;
+    display: none;
+}
+
+/* select lang */
+.popup-plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: url('http://asia-gaming.net/events/mastertour/img/bg-black-50.png') 0 0 repeat;
+    z-index: 1099;
+    display: none;
+    overflow: hidden;
+}
+
+.wrapper-selectlang-menu {
+    position: fixed;
+    top: 15%;
+    width: 100%;
+    overflow: auto;
+    z-index: 1100;
+}
+
+.selectlang-plane {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.selectlang-menu {
+    margin: 0 auto;
+    max-width: 635px;
+    height: 550px;
+    overflow: auto;
+    background-color: #08617c;
+    color: #76e0ff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.selectlang-menu span {
+    display: inline-block;
+}
+
+.selectlang-menu span a,
+.selectlang-menu span a:hover {
+    color: #fff;
+}
+
+.selectlang-menu .title {
+    margin-bottom: 35px;
+}
+
+.selectlang-menu .others {
+    margin: 0 30px;
+}
+
+.selectlang-menu .sep-line {
+    background-color: #1d738d;
+    margin: 30px 70px;
+}
+
+.selectlang-menu .closed {
+    text-align: right;
+    padding: 18px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.selectlang-menu .readmorex {
+    margin-bottom: 25px;
+}
+
+/* slide menu */
+.mobile-menu-btn {
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    width: 20px;
+    height: 30px;
+    display: none;
+    background: url('../images/mobile-menu-btn.png') center center no-repeat;
+    cursor: pointer;
+}
+
+.mobile-menu-btn.active {
+    background: url('../images/mobile-menu-btn.png') center center no-repeat;
+}
+
+.wrapper-slide-menu {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    overflow: auto;
+    z-index: 1010;
+}
+
+.slide-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+}
+
+.slide-menu > li {
+    display: block;
+    position: relative;
+    border-top: #8cc8d9 solid 1px;
+}
+
+.slide-menu > li > span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 79px;
+    height: 44px;
+    cursor: pointer;
+    background: url('http://asia-gaming.net/events/mastertour/img/mobile-menu-arrow-down.png') center center no-repeat;
+    text-align: center;
+}
+
+.slide-menu > li > span.active {
+    background: url('http://asia-gaming.net/events/mastertour/img/mobile-menu-arrow-up.png') center center no-repeat;
+}
+
+.slide-menu > li > a {
+    display: block;
+    color: #ff6600;
+    background-color: #fff;
+    padding: 15px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.slide-menu > li > a:hover {
+    color: #25b0d9;
+}
+
+.slide-menu > li > ul {
+    display: none;
+}
+
+.slide-menu > li > ul > li {
+    display: block;
+    border-top: #8cc8d9 solid 1px;
+}
+
+.slide-menu > li > ul > li > a {
+    display: block;
+    background-color: #08617c;
+    color: #76e0ff;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.slide-menu > li > ul > li > a:hover {
+    color: #fff;
+}
+
+/* mobile language */
+#language-mobile {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    background-color: #08617c;
+    color: #76e0ff !important;
+}
+
+#language-mobile a {
+    color: #76e0ff !important;
+}
+
+#language-mobile span {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+#language-mobile span a:hover {
+    color: #fff !important;
+}
+
+#language-mobile > ul > li {
+    display: block;
+    border-top: #8cc8d9 solid 1px;
+    margin-top: 15px;
+    padding-top: 15px;
+    vertical-align: bottom;
+}
+
+#language-mobile > ul > li a {
+    color: #76e0ff !important;
+}
+
+#language-mobile > ul > li a:hover {
+    color: #fff !important;
+}
+
+#language-mobile .mail {
+    width: 25px;
+    height: 16px;
+    margin: 0;
+    background: url('http://asia-gaming.net/events/mastertour/img/top/top_mail.png') center center no-repeat;
+}
+
+#language-mobile .mail:hover {
+    width: 25px;
+    background: url('http://asia-gaming.net/events/mastertour/img/top/top_mail_v.png') center center no-repeat;
+}
+
+/* bottom */
+#wrapper-bottom {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1130px;
+}
+
+#bottom {
+    text-align: center;
+    margin: 0 10px;
+    padding: 25px 0 25px;
+}
+
+#bottom h3 {
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+#bottom ul {
+    display: inline-block;
+}
+
+#bottom ul > li {
+    display: block;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#bottom ul > li:first-child {
+    margin: 0;
+}
+
+#bottom ul > li > a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+#bottom ul > li > a.facebook {
+    background: url('http://asia-gaming.net/events/mastertour/img/icon-facebook.png') center top no-repeat;
+}
+
+#bottom ul > li > a.utube {
+    background: url('http://asia-gaming.net/events/mastertour/img/icon-utube.png') center top no-repeat;
+}
+
+#bottom ul > li > a:hover {
+    background-position: bottom;
+}
+
+/* footer */
+#wrapper-footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #525151;
+    margin-top: -15px;
+}
+
+#footer {
+    color: #bbbbbb;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1130px;
+    padding: 0;
+}
+
+#footer .wrap2 {
+    margin: 0;
+}
+
+#footer .wrap2 .sep-0 {
+    height: 0px;
+    clear: both;
+    padding: 0 0;
+    display: none;
+}
+
+#footer .wrap2 .links {
+    margin: 0 13px 20px 0;
+    text-align: center;
+}
+
+#footer .wrap2 .last {
+    margin: 0 0 20px 0;
+}
+
+#footer .wrap2 .links > a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+#footer .wrap2 .links a.qqq {
+    background-color: #ff6600;
+}
+
+#footer .wrap2 .links a.qqq:hover {
+    color: #fff;
+    background-color: #11688e;
+}
+
+#footer .wrap2 .links a.email {
+    background-color: #eeab02;
+}
+
+#footer .wrap2 .links a.email:hover {
+    color: #fff;
+    background-color: #11688e;
+}
+
+#footer .wrap2 .links a.fb {
+    background-color: #25b0d9;
+}
+
+#footer .wrap2 .links a.fb:hover {
+    color: #fff;
+    background-color: #11688e;
+}
+
+#footer .sitemap {
+    margin: 0;
+    padding-top: 50px;
+}
+
+#footer .sitemap > ul {
+    display: block;
+    float: left;
+    margin: 0 0 20px 28px;
+    min-height: 150px;
+}
+
+#footer .sitemap > ul.gap {
+    padding-left: 13px;
+}
+
+#footer .sitemap > ul > li {
+    display: block;
+    width: 150px;
+}
+
+#footer .sitemap > ul > li > a {
+    display: inline-block;
+    padding: 0 20px 8px 0;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #dad3cf;
+}
+
+#footer .sitemap > ul > li:first-child > a {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 16px 0;
+}
+
+#footer .sitemap > ul > li > a:hover {
+    color: #ff6600;
+}
+
+#footer .qrcode {
+    margin: 0 0 20px 0;
+    color: #dad3cf;
+    margin-right: 45px
+}
+
+#footer .qrcode > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    color: #dad3cf;
+    padding: 0 0 15px 0;
+}
+
+#footer .qrcode > img {
+    display: block;
+}
+
+#footer .qrcode > span {
+    display: block;
+    text-align: center;
+    width: 88px;
+    margin: -1px 0 0 0;
+    padding: 3px 0;
+    color: #fff;
+    background-color: #ababab;
+    border: solid 1px #000;
+}
+
+#footer .media {
+    margin: 0 0 20px 0;
+    color: #dad3cf;
+}
+
+#footer .media > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    color: #dad3cf;
+    padding: 0 0 15px 0;
+}
+
+#footer > .sep-line {
+    height: 1px;
+    clear: both;
+    padding: 0 0;
+    margin: 0;
+    background-color: #6a7f88;
+}
+
+#footer .social {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0px 0 0;
+}
+
+#footer .social > ul {
+    display: block;
+}
+
+#footer .social > ul > li {
+    display: block;
+    float: left; /*margin: 0 20px 0 0;*/
+}
+
+#footer .social > ul > li > a {
+    display: block;
+    width: 20px;
+    height: 45px;
+}
+
+#footer .social > ul > li > a.utube {
+    width: 60px;
+    background: url('../images/footer/footer_utube.png') center center no-repeat;
+    margin: 0 20px 0 0;
+}
+
+#footer .social > ul > li > a.facebook {
+    width: 60px;
+    background: url('../images/footer/footer_facebook.png') center center no-repeat;
+}
+
+#footer .social > ul > li > a.sina {
+    width: 60px;
+    background: url('../images/footer/footer_sina.png') center center no-repeat;
+    margin: 0 20px 0 0;
+}
+
+#footer .social > ul > li > a.youku {
+    width: 60px;
+    background: url('../images/footer/footer_youku.png') center center no-repeat;
+}
+
+#footer .social .left {
+    width: 160px;
+}
+
+#footer .social .sep {
+    width: 1px;
+    height: 100px;
+    border-left: 1px solid #4a4846;
+}
+
+#footer .social .aglogo {
+    width: 95px;
+    height: 100px;
+}
+
+#footer .aglogo {
+    width: 95px;
+    height: 75px;
+    background: url('../images/footer/footer_ag.png') center center no-repeat;
+    margin: 0 0 0 25px;
+}
+
+#footer .qr {
+    background: url('http://asia-gaming.net/img/AG_qrcode.png') center center no-repeat;
+    background-size: 88px 88px;
+    height: 88px;
+}
+
+#footer > .logo {
+    margin: 10px 30px 15px;
+    float: left;
+    width: 80px;
+    height: 28px;
+    text-transform: uppercase;
+    background: url('../images/footer/logo_ag.png') center center no-repeat;
+}
+
+#footer > .copyright {
+    margin: 0 30px 0 0;
+    float: right;
+    padding: 20px 0 15px;
+    text-transform: uppercase;
+    height: 77px;
+}
+
+#footer > .copyright .sep-copyright {
+    height: 0px;
+    clear: both;
+    padding: 2px 0;
+    display: none;
+}
+
+/*
+===================== ADDITIONAL MODULES ===================== 
+*/
+
+/* preheader */
+#wrapper-preheader {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: #08617c;
+    z-index: 1001;
+    box-shadow: 0px 0px 3px #000;
+}
+
+#preheader {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1130px;
+    height: 50px;
+}
+
+#preheader > .social {
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 5px 0 0;
+}
+
+#preheader > .social > ul {
+    display: block;
+}
+
+#preheader > .social > ul > li {
+    display: block;
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+#preheader > .social > ul > li > a {
+    display: block;
+    height: 40px;
+}
+
+#preheader > .social > ul > li > a.eglobal {
+    margin: 0 15px 0 30px;
+}
+
+#preheader > .social > ul > li > a.mail {
+    margin: 0 0 0 15px;
+}
+
+#preheader > .social > ul > li > a.eglobal:hover ~ #language-desktop {
+    display: block;
+}
+
+#preheader > .social > ul > li > a.eglobal:focus ~ #language-desktop {
+    display: block;
+}
+
+#language-desktop:hover {
+    display: block;
+}
+
+#preheader > .social > ul > li > a.eglobal {
+    width: 38px;
+    background: url('../images/top/top_global.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.mail {
+    width: 25px;
+    background: url('../images/top/top_mail.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.utube {
+    width: 50px;
+    background: url('../images/top/top_utube.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.facebook {
+    width: 24px;
+    background: url('../images/top/top_facebook.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.sina {
+    width: 29px;
+    background: url('../images/top/top_sina.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.youku {
+    width: 33px;
+    background: url('../images/top/top_youku.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.agtop {
+    width: 43px;
+    background: url('../images/top/top_ag.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.eglobal:hover {
+    width: 38px;
+    background: url('../images/top/top_global_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.mail:hover {
+    width: 25px;
+    background: url('../images/top/top_mail_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.utube:hover {
+    width: 50px;
+    background: url('../images/top/top_utube_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.facebook:hover {
+    width: 24px;
+    background: url('../images/top/top_facebook_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.sina:hover {
+    width: 29px;
+    background: url('../images/top/top_sina_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.youku:hover {
+    width: 33px;
+    background: url('../images/top/top_youku_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > a.agtop:hover {
+    width: 43px;
+    background: url('../images/top/top_ag_v.png') center center no-repeat;
+}
+
+#preheader > .social > ul > li > span {
+    display: block;
+    width: 1px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#preheader > .global {
+    float: left;
+}
+
+#preheader > .global > ul > li {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+#preheader > .global .email {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial;
+    color: #76e0ff;
+    margin: 12px 20px 0 15px;
+}
+
+#preheader > .global .email:hover {
+    color: #fff
+}
+
+/* postheader */
+#wrapper-postheader {
+    width: 100%;
+    height: 4px;
+    position: fixed;
+    top: 149px;
+    /*background-color: #0ea1ce;*/
+    z-index: 500;
+}
+
+/* email */
+#email {
+    width: 172px;
+    position: absolute;
+    top: 19px;
+    left: 100px;
+}
+
+#email a {
+    display: block;
+}
+
+#email img {
+    width: 100%;
+}
+
+/* slider */
+.glyphicon-chevron-left-new {
+    top: 50%;
+    background: url(http://asia-gaming.net/events/mastertour/images/nav-left.png)
+}
+
+/* header hide */
+
+.page-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-transition: top 0.6s;
+    -moz-transition: top 0.6s;
+    transition: top 0.6s;
+    z-index: 1004;
+    border: 0;
+}
+
+.page-header.off-canvas {
+    top: -89px;
+}
+
+.page-header.fixed {
+    top: 0;
+    z-index: 9999;
+}
+
+.wrapper-up {
+    margin-top: -50px;
+    z-index: 1005;
+}
+
+.wrapper-down {
+    z-index: 1000;
+}
+
+.slide-container {
+    width: 1130px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.content-container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.collapse_item {
+    padding: 0 0 38px 5px;
+}
+
+.collapse_item .collapse_link {
+    font-weight: bold;
+}
+
+.collapse_item .collapse_expand {
+    padding: 16px 20px 20px 20px;
+    border-bottom: 1px solid #424242;
+}
+
+.collapse_item .collapse_link > .arrowdn {
+    background: url('http://asia-gaming.net/events/mastertour/img/collapse_dn.png') right no-repeat;
+    padding-right: 25px;
+}
+
+.collapse_item .collapse_link > .arrowup {
+    background: url('http://asia-gaming.net/events/mastertour/img/collapse_up.png') right no-repeat;
+    padding-right: 25px;
+}
+
+/* share */
+.share > ul > span {
+    display: block;
+    float: left;
+    margin: 15px 0;
+    font-size: 12px;
+    color: #7d7d7d;
+}
+
+.share > ul {
+    display: block;
+}
+
+.share > ul > li {
+    display: block;
+    float: left;
+    margin: 0 0 0 3%;
+}
+
+.share > ul > li > a {
+    display: block;
+    height: 40px;
+}
+
+.share > ul > li > a.email {
+    width: 23px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/email.png') center center no-repeat;
+}
+
+.share > ul > li > a.facebook {
+    width: 22px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/facebook.png') center center no-repeat;
+}
+
+.share > ul > li > a.twitter {
+    width: 24px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/twitter.png') center center no-repeat;
+}
+
+.share > ul > li > a.wechat {
+    width: 27px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/wechat.png') center center no-repeat;
+}
+
+.share > ul > li > a.weibo {
+    width: 27px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/weibo.png') center center no-repeat;
+}
+
+.share .a2a_kit a {
+    display: block;
+    float: left;
+    margin: 10px 0 0 3%;
+    height: 22px !important;
+}
+
+.share .a2a_kit span {
+    display: none;
+}
+
+.share .a2a_kit a.a2a_button_email {
+    width: 23px;
+    height: 14px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/email.png') center center no-repeat;
+}
+
+.share .a2a_kit a.a2a_button_facebook {
+    width: 22px;
+    height: 21px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/facebook.png') center center no-repeat;
+}
+
+.share .a2a_kit a.a2a_button_twitter {
+    width: 24px;
+    height: 19px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/twitter.png') center center no-repeat;
+}
+
+.share .a2a_kit a.a2a_button_wechat {
+    width: 27px;
+    height: 22px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/wechat.png') center center no-repeat;
+}
+
+.share .a2a_kit a.a2a_button_sina_weibo {
+    width: 27px;
+    height: 21px;
+    background: url('http://asia-gaming.net/events/mastertour/img/share/weibo.png') center center no-repeat;
+}

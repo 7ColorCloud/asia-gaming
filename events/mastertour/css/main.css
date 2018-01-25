@@ -1,0 +1,256 @@
+html, body 											{ margin:0; padding:0; border:0; font-size:12px; line-height:1.2em; color:#fff;
+														font-family: Arial,'Microsoft Jhenghei','Noto Sans SC','Noto Sans TC',sans-serif; vertical-align:baseline; }
+														
+.left 	{float: left;}
+.right 	{float: right;}
+.half   {width: 50%; }
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+
+.yellow {color: #fffb20;}
+
+.a_anchor{margin-top: -153px; padding-top: 153px; display: block; visibility:hidden;} 
+
+#blank{width:100%; height:97px; display:none;}
+
+#banner #main {position: absolute; top:0%; width:100%; text-align:center;}
+#banner #main img {max-width:100%;}
+
+
+/* ==================================== List Items Format ================================== */
+
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin-left: 10px; counter-reset: item; list-style-type: none;
+  padding: 0;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") " ";
+  display: table-cell;
+  padding-right: 0.6em; color: yellow; width:60px; 
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") " ";
+  padding-right:0!important;/*padding-right: 0.6em;*/ color: yellow; position: relative; left:-10px;
+}
+
+/* ==================================== Side Menu ================================== */
+
+.promomenu											{position: fixed;/*bottom: 100px;*/ bottom: 25%; left: 0px; z-index: 10000; }
+#sideMenu 											{ width:130px; }
+#sideTbl 											{}
+#sideTbl tr											{/*background:url('../images/menu/menu_arrow.png') no-repeat right center; width:130px;*/}
+#sideTbl td 										{/*background:url('../images/menu/menu_stroke.png') no-repeat center bottom;  height: 50px;*/}
+
+#sideTbl_m  										{ display: none;}
+#sideTbl_m img 										{ width: 100%;}
+
+
+/* ==================================== Global Sections ==================================== */
+
+.sections											{ padding: 0 5%; overflow: hidden;} 
+.sections .inner h2 								{ font-size: 28px; background:url('../images/title/blue_light.png') no-repeat center 70%; width: 100%; max-height: 200px;}
+.sections .inner h2  img 							{ max-width: 100%;}
+.sections .inner h3 								{ color: #fff; font-size: 20px; line-height:28pt; font-weight: bold; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); max-width: 880px; margin: 0 auto;}
+
+.sections .inner p 									{ font-size: 18px;}
+.sections .inner li									{ font-size: 18px;}
+.sections .inner .highlight 						{ font-weight: bold; color: #00efff; margin: 0 2px 0 5px; }
+
+.sections .qex .title 								{ font-size: 28px;}
+.sections .qex .content 							{ font-size: 20px;}
+.sections .half img 								{ width: 100%;}
+
+ /*
+.sections ol  										{ margin-left: 20px; counter-reset: item; list-style-type: none;} 
+.sections ol li								 		{ text-align: left; margin: 0 auto; color:#fff; font-size: 18px; line-height:36px; max-width: 1130px; font-weight: normal;}
+.sections ol li:before 								{ content: counter(item) " "; counter-increment: item; color: yellow; padding-right:60px;}
+*/
+.sections .logo_m 									{ display: none;}
+
+.sections .inner ol 								{ list-style-position: inside!important;}
+.sections .inner ol li								{ text-align: left;  color:#fff; font-size: 18px; line-height:22px; max-width: 1130px; font-weight: normal; padding: 5px 0; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+.sections .inner ol li ol 							{ padding: 10px 0;}
+.sections .inner ol li ol li 						{ /*margin-left: -50px;*/ }
+.sections .inner ol li a							{ text-decoration: underline; color: #00e0ff;}
+.sections .inner ol li a:hover						{ text-decoration: underline; color: #fff020;}
+
+.sections .inner .tbl								{ padding: 10px 0; /*margin: 0 auto; max-width:960px; */ display:table; max-width: 1130px; margin-left: 60px; padding-right: 0.6em;}
+.sections .inner .tbl table 						{ width:600px; color: #fff; font-size: 16px; border: 1px solid #fff;}
+.sections .inner .tbl table th 						{ color: #fff020; text-indent: 20px; height: 30px; padding: 5px; text-align:left;}
+.sections .inner .tbl table td 						{ text-indent: 20px; height: 30px; padding: 5px; text-align:left;}
+
+
+/* ==================================== index  ==================================== */
+#index 												{ position:relative; margin:0 auto; max-width:1920px; z-index: 10; }
+
+#index .bg1											{ background: url('../images/bg/main_p1.jpg') #143142 center top; background-size: cover;}
+#index .bg2											{ background: url('../images/bg/pattern.png') left center repeat; background-size: contain;}
+
+/* ==================================== index Section1 ==================================== */
+#index #wrapper-s1									{ position:relative; margin:0 auto; max-width:1920px; z-index: 10;
+													  background: url('../images/bg/dim.png');/*background: url('../images/index/index_bg.jpg') #143142 center top  no-repeat;*/}
+#index .s1											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:center;overflow: visible!important; min-height: 350px; height:100%; background-size: contain; }
+#index .s1 .inner									{ position:relative; z-index:101; padding: 30px 0px 0px; max-width:1600px; margin:0 auto; text-align: center;}
+#index .s1 .inner h2 								{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#index .s1 .inner p 								{ color: #fff; line-height:36px; text-align:left; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); max-width: 620px; margin: 0 auto;}
+#index .s1 .inner .m1 								{ padding: 60px 0 0 0;}
+#index .s1 .inner img  		 						{ max-width: 100%;}
+
+#index .s1 .inner .steps 							{ }
+#index .s1 .inner .step 							{ display: inline;}
+#index .s1 .inner .step_txt 						{ position:relative; display: inline; left: -80px; /*margin-left: -140px;*/ top: 70px;}
+#index .s1 .inner .step_txt span 	 				{ font-size: 20px; line-height: 28px; max-width:120px; display: inline-block;}
+#index .s1 .inner .step_txt img 					{ position:relative; display: inline;}
+
+/* ==================================== index Section2 ==================================== */
+#index #wrapper-s2									{ position:relative; margin:0 auto; max-width:1920px; z-index: 9;
+													  /*background: url('../images/index_bg.jpg') #0e1d68 center bottom no-repeat;*/}
+#index .s2											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 350px; height:100%; background-size: contain; }
+#index .s2 .inner									{ position:relative; z-index:101; padding: 0px 0px 30px; max-width:1600px; margin:0 auto; text-align: center;}
+#index .s2 .inner h2 								{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#index .s2 .inner p 								{ color: #fff; line-height:36px; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); max-width: 980px; margin: 0 auto; padding-bottom: 100px;}
+#index .s2 .inner .m1 								{ padding: 10px 0 0 0;}
+#index .s2 .inner img  		 						{ max-width: 100%;}
+
+
+#index .s2 .inner .stage_t1 						{ /*background: url(../images/index/stage/stage1.png) center bottom no-repeat;*/ width: 100%; max-width: 736px; height: 235px; margin: 0 auto; /*padding-top:60px;*/}
+#index .s2 .inner .stage_t1 						{ text-shadow: 2px 2px 6px rgba(0,0,0, 0.8); margin: 0 auto;}
+#index .s2 .inner .stage_t1  h1 					{ display: none; font-size: 30px; position:relative; left:-185px; color: #fff; font-weight: bold; max-width:897px; margin: 0 auto; line-height: 22px;}
+#index .s2 .inner .stage_t1  p 						{ position:relative; top: -150px; margin:0 auto; padding: 0 10px; max-width: 530px; text-align: left;}
+#index .s2 .inner .stage_t1 img 					{ /*margin-top: -140px;*/}
+
+#index .s2 .inner .stage_t2 						{ /*background: url(../images/index/stage/stage2.png) center bottom no-repeat;*/ width: 100%; max-width: 737px; height: 290px; margin: 0 auto; /*padding-top:30px; top: -40px;*/ position: relative;}
+#index .s2 .inner .stage_t2 						{ text-shadow: 2px 2px 6px rgba(0,0,0, 0.8); margin: 0 auto;}
+#index .s2 .inner .stage_t2  h1 					{ display: none; font-size: 30px; position:relative; left:-180px; top:60px; color: #fff; font-weight: bold; max-width:897px; margin: 0 auto;}
+#index .s2 .inner .stage_t2  p 						{ position:relative; top: -150px; left:-30px; margin:0 auto; padding: 0 10px; max-width: 420px; text-align: left;}
+#index .s2 .inner .stage_t2 img 					{ /*margin-top: -140px;*/}
+
+
+#index .s2 .inner .stage_txt 						{ text-shadow: 2px 2px 6px rgba(0,0,0, 0.8); margin: 0 auto;}
+#index .s2 .inner .stage_txt  h1 					{ font-size: 30px; position:relative; top: 130px; left:-185px; color: #fff; font-weight: bold; max-width:897px; margin: 0 auto; line-height: 22px;}
+#index .s2 .inner .stage_txt  p 					{ position:relative; top: 190px; margin:0 auto; max-width: 630px; text-align: center;}
+#index .s2 .inner .stage_txt2 						{ text-shadow: 2px 2px 6px rgba(0,0,0, 0.8); max-width:897px; margin: 0 auto;}
+#index .s2 .inner .stage_txt2  h1 					{ font-size: 30px; position:relative; top: 200px; left:-185px; color: #000; font-weight: bold; }
+#index .s2 .inner .stage_txt2  p 					{ position:relative; top: 270px; left:-50px; margin:0 auto; max-width: 520px; text-align: left;}
+
+#index .s2 .inner .stage_btn 						{ position:relative; color: #f9cb5a; top: 70px; font-size: 32px; font-weight: bold; text-shadow: 2px 2px 6px rgba(0,0,0, 0.8);}
+
+/* ==================================== rules  ==================================== */
+#rules 												{ position:relative; margin:0 auto; max-width:1920px; z-index: 10; }
+
+#rules .bg1											{ background: url('../images/bg/main_p2.jpg') #143142 center center; background-size: cover;}
+#rules .bg2											{ background: url('../images/bg/pattern.png') right top repeat; /*background-size: contain;*/}
+#rules .logo 										{ position:absolute; top: -70px; left: -210px;} 
+ 
+/*
+#rules .logo 										{ position:absolute; top: -300px; left: -210px;} 
+*/
+
+/* ==================================== rules Section1 ==================================== */
+#rules .s1											{ margin: 0 0 0 0;  padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 1400px; height:100%; background-size: contain; }
+#rules .s1 .inner									{ font-size: 20px; line-height: 34px; position:relative; z-index:101; padding: 0; max-width:1600px; margin:0 auto; text-align: left; max-width: 1130px;} 
+
+#rules .s1 .inner h1 								{ padding: 30px 0 0 0;}
+#rules .s1 .inner h2 								{ color: #fff; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#rules .s1 .inner h3 								{ font-size: 18px; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); color: #fffb20; font-weight: bold; line-height:36px; display: inline; margin-left: 20px;}
+#rules .s1 .inner p 								{ color: #fff; line-height:36px; text-align:left; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); margin-left: 20px;}
+#rules .s1 .inner span 								{ font-size: 18px; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); }
+#rules .s1 .inner .m1 								{ padding: 60px 0 0 0;}
+#rules .s1 .inner img  		 						{ max-width: 100%; width: auto!important}
+
+/* ==================================== rules Section2 ==================================== */
+#rules #wrapper-s2									{ position:relative; margin:0 auto; max-width:1920px; z-index: 9;
+													  background: url('../images/bg/dim.png');}
+#rules .s2											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 2000px; height:100%; background: url('../images/bg/ball.png') no-repeat bottom right; background-size: contain; padding-bottom: 160px;}
+
+/*
+#rules .s2 .inner									{ position:relative; z-index:101; padding: 0px 0px 30px; max-width:1130px; margin:0 auto; text-align: center; top: -130px;}
+*/
+#rules .s2 .inner									{ font-size: 20px; line-height: 34px; position:relative; top: 120px; padding-bottom:120px; z-index:101; padding: 0; max-width:1600px; margin:0 auto; text-align: left; max-width: 1130px;} 
+
+#rules .s2 .inner h2 								{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#rules .s2 .inner p 								{ color: #fff; line-height:36px; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); max-width: 880px; margin: 0 auto;}
+
+#rules .s2 .inner .m1 								{ padding: 10px 0 0 0;}
+#rules .s2 .inner img  		 						{ max-width: 100%;}
+
+
+/* ==================================== rules Section3 ==================================== */
+#rules #wrapper-s3									{ position:relative; margin:0 auto; max-width:1920px; z-index: 9;}
+#rules .s3											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 350px; height:100%; background-size: contain; }
+#rules .s3 .inner									{ position:relative; z-index:101; padding: 0px 0px 30px; max-width:1130px; margin:0 auto; text-align: center; top: -0px;}
+#rules .s3 .inner h2 								{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#rules .s3 .inner p 								{ color: #fff; line-height:36px; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); max-width: 880px; margin: 0 auto;}
+
+/* ==================================== rules Section4 ==================================== */
+#rules #wrapper-s4									{ position:relative; margin:0 auto; max-width:1920px; z-index: 9;}
+#rules .s4											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 350px; height:100%; background-size: contain; }
+#rules .s4 .inner									{ position:relative; z-index:101; padding: 0px 0px 30px; max-width:1130px; margin:0 auto; text-align: center; top: -0px;}
+#rules .s4 .inner h1    							{ color: #fff020; text-align:left; font-size: 30px; line-height: 48px; padding-top: 30px; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#rules .s4 .inner h2 								{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+#rules .s4 .inner p 								{ color: #fff; line-height:26px; text-align:left; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64);}
+
+
+
+/* ==================================== qna  ==================================== */
+#qna 												{ position:relative; margin:0 auto; max-width:1920px; z-index: 10; }
+
+#qna .bg1											{ background: url('../images/bg/main_p2.jpg') #143142 center center; background-size: cover;}
+#qna .bg2											{ background: url('../images/bg/pattern.png') right top repeat; /*background-size: contain;*/}
+
+#qna .logo 											{ position:absolute; top: 50px; left: -210px;} 
+
+/* ==================================== qna Section1 ==================================== */
+
+#qna #wrapper-s1									{ position:relative; margin:0 auto; max-width:1920px; z-index: 9;
+													  background: url('../images/bg/dim.png');}
+#qna .s1											{ margin: 0 0 0 0; padding: 0; position:relative; text-align:left;overflow: visible!important; min-height: 350px; height:100%; background: url('../images/bg/ball.png') no-repeat bottom right; background-size: contain; }
+#qna .s1 .inner										{ position:relative; z-index:101; padding: 0px 0px 30px; max-width:1130px; margin:0 auto; /*text-align: center;*/ }
+#qna .s1 .inner h2 									{ color: #fff; font-weight:bold; text-align:center; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); margin-top: 120px;}
+#qna .s1 .inner p 									{ color: #fff; line-height:36px; text-align:left; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); margin: 0 auto; padding: 20px 0;}
+
+#qna .s1 .inner .m1 								{ padding: 10px 0 0 0;}
+
+#qna .s1 .inner .q 									{ text-align:left; border-bottom: 1px dotted #fff; padding-bottom: 30px; margin-bottom: 30px;}
+#qna .s1 .inner .q h1 								{ font-size: 48px; color:#fffb20; display: inline-block; margin-right: 60px;}
+#qna .s1 .inner .q h3 								{ font-size: 28px; color:#fffb20; display: inline-block;}
+
+#qna .s1 .inner .qa 								{ text-align:left; }
+#qna .s1 .inner .qa h1 								{ font-size: 36px; color:#fffb20; display: inline-block; margin-right: 60px;}
+#qna .s1 .inner .qa h3 								{ font-size: 20px; color:#fff; display: inline-block;}
+#qna .s1 .inner li 					 				{ font-size: 18px; color:#fff; text-shadow: 3px 2px 8px rgba(0,0,0, 0.64); }
+#qna .s1 .inner li::before 							{ content: "• "; color: #fff; /* or whatever color you prefer */}
+
+
+
+
+#error{display:none;}
+.ie8 #error{display:block; width:100%; height:100%; position:fixed; z-index:99999999; background-image:url('http://asia-gaming.net/events/mastertour/images/bg.jpg');}
+.ie8 #error .header{width:100%; height:100px; background-color:#333333; padding:5px 20px; }
+.ie8 #error .menu{width:100%; height:51px; background-color:#0078d7; padding:15px 25px; color:#fff;}
+.ie8 #error .link{color:#fff;}
+.ie8 #error .link:hover{color:#fff;}
+.ie8 #error .banner{background-image:url('http://asia-gaming.net/events/mastertour/images/ie8/bg.jpg'); height:auto; min-height:450px;}
+.ie8 #error .banner li{list-style-type: none;}
+.ie8 #error .banner .title{color:#fff; font-size:48px; padding:50px 50px; float:left;}
+.ie8 #error .banner .des{font-size:12px; color:#fff; padding:10px 0px;}
+.ie8 #error .banner .btm{color:#fff; font-size:18px; background-color:#5a88bd; width:223px; height:34px; padding:15px; font-weight:bold;}
+.ie8 #error .banner .btm:hover{color:#fff; font-size:18px; background-color:#87b3e5; width:223px; height:34px; padding:15px; font-weight:bold;}
+.ie8 #error .banner .ie-logo{ padding:10px 50px; float:left;}
+.ie8 #error .footer{ background-color:#333333; height:280px; width:100%; color:#fff; font-size:12px; padding:20px;}
+.ie8 #error .footer  .cp{ width:100%; color:#fff; font-size:12px; padding:3px 20px;}
