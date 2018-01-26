@@ -105,10 +105,10 @@ $(function(){
 	},500);
 });
 
-$(window).load(function(){
-	lang.loadPack('tw');
-	//tracking();
-});
+// $(window).load(function(){
+// 	lang.loadPack('tw');
+// 	//tracking();
+// });
 
 $(window).resize(function(){
 	set_mobile_menu();
