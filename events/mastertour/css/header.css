@@ -136,7 +136,7 @@ em {
 #wrap {
     padding: 0;
     position: relative;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 #mobile-plane {
@@ -392,7 +392,7 @@ em {
     top: 11px;
     right: 30px;
     width: 20px;
-    height: 30px;
+    /*height: 30px;*/
     display: none;
     background: url('../images/mobile-menu-btn.png') center center no-repeat;
     cursor: pointer;
