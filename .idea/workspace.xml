@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16f61250-a3b1-44c3-b842-4ed2a78a5a67" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/events/mastertour/css/header.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/css/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/css/vacancies.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/ag_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/bg/ball.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/bg/dim.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/bg/main_p1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/bg/main_p2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/bg/pattern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/footer_ag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/footer_facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/footer_sina.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/footer_utube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/footer_youku.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/footer/logo_ag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/index/stage/stagebg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/logo/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/logo/logo_m.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m1a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m1b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m2a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m2b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m3a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m3b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m4a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m4b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m5a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m5b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m6a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m6b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m7a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m7b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m8a_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/m8b_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r1_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r2_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r3_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r4_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r5_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r6_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r7_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/menu/r8_zh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/mobile-menu-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/qna/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/qna/open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/title/blue_light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_ag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_ag_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_facebook_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_global.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_global_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_mail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_mail_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_sina.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_sina_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_utube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_utube_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_youku.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/images/top/top_youku_v.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/js/jquery-cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/js/jquery-lang.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/js/vacancies.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/qna.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/events/mastertour/rules.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/library/bootstrap/fonts/glyphicons-halflings-regular.eot?" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="rules.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rules.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12783">
+              <caret line="348" column="103" lean-forward="true" selection-start-line="348" selection-start-column="103" selection-end-line="348" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qna.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qna.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="874" column="28" lean-forward="false" selection-start-line="874" selection-start-column="28" selection-end-line="874" selection-end-column="28" />
+              <folding>
+                <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>href=../../library</find>
+      <find>animate.css</find>
+      <find>translate('../../events/mastertour/images/menu</find>
+      <find>src=&quot;../../events/mastertour/images/logo</find>
+      <find>src=&quot;../../events/mastertour/images/menu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>href=./library</replace>
+      <replace>translate('./images/menu</replace>
+      <replace>src=&quot;./images/logo</replace>
+      <replace>src=&quot;./images/menu</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rules.html" />
+        <option value="$PROJECT_DIR$/qna.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="204" />
+    <option name="y" value="32" />
+    <option name="width" value="1420" />
+    <option name="height" value="1037" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="asia-gaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asia-gaming" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="asia-gaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asia-gaming" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="asia-gaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asia-gaming" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="asia-gaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asia-gaming" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\share\asia-gaming\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16f61250-a3b1-44c3-b842-4ed2a78a5a67" name="Default" comment="" />
+      <created>1516953303675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516953303675</updated>
+      <workItem from="1516953305270" duration="1244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1244000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/library/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12783">
+          <caret line="348" column="103" lean-forward="true" selection-start-line="348" selection-start-column="103" selection-end-line="348" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qna.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="874" column="28" lean-forward="false" selection-start-line="874" selection-start-column="28" selection-end-line="874" selection-end-column="28" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
